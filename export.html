@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export to Excel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Export to Excel</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add.html">Add Attendance</a></li>
+                <li><a href="delete.html">Delete Attendance</a></li>
+                <li><a href="filter.html">Filter Attendance</a></li>
+                <li><a href="defaulter.html">Defaulter Report</a></li>
+                <li><a href="export.html">Export to Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="exportExcel">
+            <h2>Export Attendance Records to Excel</h2>
+            <button id="exportBtn">Export to Excel</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RFID Attendance System. All rights reserved.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
